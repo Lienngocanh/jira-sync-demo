@@ -262,3 +262,25 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 
 ---
+## BUG-012 · [KAN-26](https://chutichlien01.atlassian.net/browse/KAN-26)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | iOS |
+| reporter | @yourname                        |
+| created  | 2026-05-14                            |
+| epic     | KAN-7 · — |
+| story    | KAN-6 · — |
+
+**Mô tả:** Không tại được sub-bug dứoi story
+
+**Steps to reproduce:**
+
+
+**Expected:** Tạo được
+**Actual:** Không được, cay
+
+
+---
