@@ -130,3 +130,25 @@ last_synced: "2026-05-14T03:51:23.859Z"
 ![actual](/tmp/test-actual.png)
 
 ---
+## BUG-006 · [KAN-15](https://chutichlien01.atlassian.net/browse/KAN-15)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | iOS |
+| reporter | @yourname                        |
+| created  | 2026-05-14                            |
+| epic     | KAN-6 · — |
+| story    | KAN-7 · — |
+
+**Mô tả:** 111
+
+**Steps to reproduce:**
+
+
+**Expected:** 111
+**Actual:** 222
+
+
+---
