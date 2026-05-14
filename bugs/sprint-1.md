@@ -152,3 +152,25 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 
 ---
+## BUG-007 · [KAN-19](https://chutichlien01.atlassian.net/browse/KAN-19)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | iOS |
+| reporter | a                        |
+| created  | 2026-05-14                            |
+| epic     | KAN-6 · — |
+| story    | KAN-7 · — |
+
+**Mô tả:** abc
+
+**Steps to reproduce:**
+
+
+**Expected:** abc
+
+**Actual:** abc
+
+---
