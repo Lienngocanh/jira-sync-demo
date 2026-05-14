@@ -196,3 +196,25 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 
 ---
+## BUG-009 · [KAN-22](https://chutichlien01.atlassian.net/browse/KAN-22)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | iOS |
+| reporter | @yourname                        |
+| created  | 2026-05-14                            |
+| epic     | KAN-6 · — |
+| story    | KAN-7 · — |
+
+**Mô tả:** 1
+
+**Steps to reproduce:**
+
+
+**Expected:** 1
+**Actual:** 2
+
+
+---
