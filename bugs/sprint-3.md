@@ -36,3 +36,25 @@ last_synced: "2026-05-14T08:41:52.320Z"
 **Actual:** phải làm tiếp
 
 ---
+## BUG-002 · [KAN-13](https://chutichlien01.atlassian.net/browse/KAN-13)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | iOS |
+| reporter | @yourname                        |
+| created  | 2026-05-14                            |
+| epic     | — · — |
+| story    | — · — |
+
+**Mô tả:** 213ad
+
+**Steps to reproduce:**
+
+
+**Expected:** 123
+
+**Actual:** 213
+
+---
