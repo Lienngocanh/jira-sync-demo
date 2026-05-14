@@ -104,3 +104,29 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 
 ---
+## BUG-005 · [KAN-11](https://chutichlien01.atlassian.net/browse/KAN-11)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Medium            |
+| platform | iOS · iPhone X |
+| reporter | @anh                        |
+| created  | 2026-05-14                            |
+| epic     | — · — |
+| story    | — · — |
+
+**Mô tả:** Verify ADF metadata table + inline media nodes
+
+**Steps to reproduce:**
+1. Mở app
+2. Vào Login
+3. Nhập sai password
+
+**Expected:** Hiện thông báo sai password
+![expected](/tmp/test-expected.png)
+
+**Actual:** Trả về HTTP 404
+![actual](/tmp/test-actual.png)
+
+---
