@@ -36,3 +36,27 @@ last_synced: "2026-05-14T03:51:23.859Z"
 **Figma ref:** node-id `1`
 
 ---
+## BUG-002 · [KAN-8](https://chutichlien01.atlassian.net/browse/KAN-8)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | High            |
+| platform | ios |
+| reporter | phương                        |
+| created  | 2026-05-14                            |
+| epic     | — · — |
+| story    | — · — |
+
+**Mô tả:** login thất bại
+
+**Steps to reproduce:**
+1. đến màn login
+2. nhập thông tin đúng
+3. nhấn nút login
+
+**Expected:** Login thành công
+**Actual:** Login thất bại
+
+
+---
