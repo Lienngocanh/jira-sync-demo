@@ -16,7 +16,7 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 | Field    | Value                              |
 |----------|------------------------------------|
-| status   | 🔴 Open     |
+| status   | ✅ Done     
 | severity | High            |
 | platform | iOS · X |
 | reporter | anh                        |
