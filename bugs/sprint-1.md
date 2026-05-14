@@ -82,3 +82,25 @@ last_synced: "2026-05-14T03:51:23.859Z"
 **Actual:** abc
 
 ---
+## BUG-004 · [KAN-10](https://chutichlien01.atlassian.net/browse/KAN-10)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | High            |
+| platform | ios |
+| reporter | @yourname                        |
+| created  | 2026-05-14                            |
+| epic     | — · — |
+| story    | — · — |
+
+**Mô tả:** Login thành công tạo bug 004
+
+**Steps to reproduce:**
+
+
+**Expected:** tạo trên git 004
+**Actual:** đè lên 003 là sai
+
+
+---
