@@ -60,3 +60,25 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 
 ---
+## BUG-003 · [KAN-9](https://chutichlien01.atlassian.net/browse/KAN-9)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | ios |
+| reporter | anh                        |
+| created  | 2026-05-14                            |
+| epic     | — · — |
+| story    | — · — |
+
+**Mô tả:** abcd
+
+**Steps to reproduce:**
+
+
+**Expected:** abc
+
+**Actual:** abc
+
+---
