@@ -306,3 +306,27 @@ last_synced: "2026-05-14T03:51:23.859Z"
 
 
 ---
+## BUG-014 · [KAN-28](https://chutichlien01.atlassian.net/browse/KAN-28)
+
+| Field    | Value                              |
+|----------|------------------------------------|
+| status   | 🔴 Open     |
+| severity | Low            |
+| platform | ios |
+| reporter | @yourname                        |
+| created  | 2026-05-15                            |
+| epic     | KAN-6 · — |
+| story    | KAN-7 · — |
+
+**Mô tả:** Sync thành công
+
+**Steps to reproduce:**
+1. Tạo bug
+2. Done trên jira
+3. 5ph sau done trên git
+
+**Expected:** Sync thành công
+**Actual:** chưa biết
+
+
+---
