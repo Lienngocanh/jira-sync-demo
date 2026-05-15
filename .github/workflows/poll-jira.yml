@@ -1,0 +1,44 @@
+name: Sync Jira → GitHub (poll mỗi 5 phút)
+
+on:
+  # Tự động chạy mỗi 5 phút
+  schedule:
+    - cron: '*/5 * * * *'
+
+  # Cho phép chạy thủ công từ GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  poll-and-sync:
+    runs-on: ubuntu-latest
+    # Timeout 3 phút — tránh job treo vô thời hạn
+    timeout-minutes: 3
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Poll Jira và sync trạng thái về .md
+        env:
+          GITHUB_TOKEN:     ${{ secrets.SYNC_GITHUB_TOKEN }}
+          GITHUB_OWNER:     ${{ secrets.SYNC_GITHUB_OWNER }}
+          GITHUB_REPO:      ${{ secrets.SYNC_GITHUB_REPO }}
+          GITHUB_BRANCH:    main
+          JIRA_BASE_URL:    ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL:       ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN:   ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_PROJECT_KEY: ${{ secrets.JIRA_PROJECT_KEY }}
+        run: node scripts/poll-jira.js
+
+      - name: In kết quả
+        if: always()
+        run: echo "✅ Poll job hoàn tất lúc $(date '+%Y-%m-%d %H:%M:%S UTC')"
